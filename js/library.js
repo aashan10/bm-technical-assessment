@@ -1,4 +1,9 @@
-const BMLibrary = {
+const BMLib = {
+
+    getById: function (id) {
+        return document.getElementById(id);
+    },
+
     setClassName: function (element, className) {
         element.classList.add(className);
     },
