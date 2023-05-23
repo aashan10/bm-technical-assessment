@@ -7,6 +7,7 @@
     <title>Two Way Binding Example</title>
   </head>
   <body class="bg-yellow-100">
+    <?php include __DIR__ . '/partials/navbar.php'; ?>
     <div class="box max-w-7xl w-full mx-auto">
       <div class="flex flex-col justify-center items-center w-full gap-10">
         <input
@@ -54,7 +55,7 @@
     </style>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./library.js" derer></script>
+    <script src="/js/library.js" derer></script>
     <script type="text/javascript">
         const bindTarget = BMLib.getById('bind-target');
         const displayTarget = BMLib.getById('display-target');
@@ -63,9 +64,9 @@
     <script>
       tailwind.config = {};
     </script>
-    <script src="./two-way-binding.js" derer></script>
-    <script src="./post-requests.js" derer></script>
-    <script src="./clipboard.js" derer></script>
+    <script src="/js/two-way-binding.js" derer></script>
+    <script src="/js/post-requests.js" derer></script>
+    <script src="/js/clipboard.js" derer></script>
 
 
     

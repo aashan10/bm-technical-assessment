@@ -1,0 +1,20 @@
+{
+    "name": "aashan/bm",
+    "autoload": {
+        "psr-4": {
+            "BM\\": "./app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aashan Ghimire",
+            "email": "ashanghimire10@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.2"
+    },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
